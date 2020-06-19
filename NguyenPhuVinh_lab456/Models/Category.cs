@@ -6,7 +6,7 @@ using System.Web;
 
 namespace NguyenPhuVinh_lab456.Models
 {
-    public class Category
+    public class Category 
     {
         public byte Id { get; set; }
         [Required]

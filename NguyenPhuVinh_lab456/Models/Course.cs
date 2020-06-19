@@ -16,6 +16,7 @@ namespace NguyenPhuVinh_lab456.Models
         [StringLength(255)]
         public string Place { get; set; }
         public DateTime DateTime { get; set; }
+        public Category Category { get; set; }
         [Required]
         public byte CategoryId { get; set; }
     }
